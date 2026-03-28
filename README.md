@@ -14,7 +14,7 @@ La implementación respeta el requerimiento de usar una **lista en memoria viva 
 
 - ASP.NET Core Web API
 - .NET 8
-- Swagger / OpenAPI (Para facilidad de revison)
+- Swagger / OpenAPI (Para facilitar la review)
 - Inyección de dependencias
 - Data Annotations
 - Almacenamiento en memoria con Singleton
