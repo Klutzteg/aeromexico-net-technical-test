@@ -95,9 +95,10 @@ git clone <URL_DEL_REPOSITORIO>
 cd AeromexicoPrueba_clean
 ```
 
-### 2. Restaurar paquetes
+### 2. Instalar SwashbuckleRestaurar paquetes
 
 ```bash
+dotnet add package Swashbuckle.AspNetCore
 dotnet restore
 ```
 
@@ -115,7 +116,7 @@ Cuando la aplicación levante, abrir en el navegador:
 http://localhost:5000/swagger
 ```
 
-> Si el puerto cambia en tu entorno, usar el puerto que aparezca en la consola al ejecutar `dotnet run`.
+> Usar el puerto que aparezca en la consola al ejecutar `dotnet run`.
 
 ## Estructura del proyecto
 
